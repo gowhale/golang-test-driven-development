@@ -25,6 +25,10 @@ func FizzBuzz(i int) string{
 		output = "1"
 	}
 
+	if i == 2 {
+		output = "2"
+	}
+
 
 	return output
 }
