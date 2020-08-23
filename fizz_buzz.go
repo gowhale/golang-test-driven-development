@@ -1,11 +1,14 @@
 package main //1
 
-import "fmt" //2
-//import "os"
+import (
+    "strconv"
+    "fmt"
+)
 
 func main() { //3
 
 	fmt.Println("MAIN")
+
 
 }
 
@@ -13,22 +16,16 @@ func FizzBuzz(i int) string{
 
 	output := "FIZZ"
 
-	if i == 5 {
+	switch i {
+	case 3:
+		output = "FIZZ"
+	case 5:
 		output = "BUZZ"
-	}
-
-	if i == 15 {
+	case 15:
 		output = "FIZZBUZZ"
+	default:
+		output = strconv.Itoa(i) 
 	}
-
-	if i == 1 {
-		output = "1"
-	}
-
-	if i == 2 {
-		output = "2"
-	}
-
 
 	return output
 }
