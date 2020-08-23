@@ -19,7 +19,7 @@ func FizzBuzz(i int) string{
 
 	if i == 15 {
 		output = "FIZZBUZZ"
-	} else if i == 5 {
+	} else if i % 5 == 0 {
 			output = "BUZZ"
 	} else if i % 3 == 0 {
 				output = "FIZZ"

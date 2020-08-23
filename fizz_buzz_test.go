@@ -29,3 +29,7 @@ func TestTwoIsTwo(t *testing.T) {
 func TestSixIsFizz(t *testing.T) {
 	assert.EqualValues(t, FizzBuzz(6), "FIZZ")
 }
+
+func TestTenIsBuzz(t *testing.T) {
+	assert.EqualValues(t, FizzBuzz(10), "BUZZ")
+}
