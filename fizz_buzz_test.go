@@ -6,6 +6,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestOne(t *testing.T) {
-	assert.EqualValues(t, 1, "1")
+func TestFizzBuzz(t *testing.T) {
+	assert.EqualValues(t, FizzBuzz(3), "FIZZ")
 }
