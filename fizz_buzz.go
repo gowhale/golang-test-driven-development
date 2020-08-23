@@ -8,3 +8,7 @@ func main() { //3
 	fmt.Println("Hello World")
 
 }
+
+func getValue() string {
+	return ""
+}
