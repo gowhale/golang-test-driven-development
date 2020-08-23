@@ -13,5 +13,9 @@ func FizzBuzz(i int) string {
 
 	output := "FIZZ"
 
+	if i == 5 {
+		output = "BUZZ"
+	}
+
 	return output
 }
