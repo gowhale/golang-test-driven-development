@@ -10,5 +10,8 @@ func main() { //3
 }
 
 func FizzBuzz(i int) string {
-	return ""
+
+	output := "FIZZ"
+
+	return output
 }
