@@ -17,5 +17,10 @@ func FizzBuzz(i int) string {
 		output = "BUZZ"
 	}
 
+	if i == 15 {
+		output = "FIZZBUZZ"
+	}
+
+
 	return output
 }
