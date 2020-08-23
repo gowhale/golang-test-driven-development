@@ -16,14 +16,14 @@ func FizzBuzz(i int) string{
 
 	output := "FIZZ"
 
-	switch i {
-	case 3:
-		output = "FIZZ"
-	case 5:
-		output = "BUZZ"
-	case 15:
+
+	if i == 15 {
 		output = "FIZZBUZZ"
-	default:
+	} else if i == 5 {
+			output = "BUZZ"
+	} else if i % 3 == 0 {
+				output = "FIZZ"
+	} else { 
 		output = strconv.Itoa(i) 
 	}
 
