@@ -19,5 +19,5 @@ func TestFifteenIsFizzBuzz(t *testing.T) {
 }
 
 func TestOneIsOne(t *testing.T) {
-	assert.EqualValues(t, FizzBuzz(1), 1)
+	assert.EqualValues(t, FizzBuzz(1), "1")
 }

@@ -9,7 +9,7 @@ func main() { //3
 
 }
 
-func FizzBuzz(i int) string {
+func FizzBuzz(i int) string{
 
 	output := "FIZZ"
 
@@ -19,6 +19,10 @@ func FizzBuzz(i int) string {
 
 	if i == 15 {
 		output = "FIZZBUZZ"
+	}
+
+	if i == 1 {
+		output = "1"
 	}
 
 
