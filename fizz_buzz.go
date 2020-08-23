@@ -17,7 +17,7 @@ func FizzBuzz(i int) string{
 	output := "FIZZ"
 
 
-	if i == 15 {
+	if i % 15 == 0 {
 		output = "FIZZBUZZ"
 	} else if i % 5 == 0 {
 			output = "BUZZ"
